@@ -1,0 +1,15 @@
+# Research Agent Dependencies
+
+# Core
+strands-agents
+boto3>=1.35.0
+
+# Web scraping
+beautifulsoup4
+requests
+GoogleNews
+ddgs  # Free DuckDuckGo search (alternative to Tavily)
+wikipedia
+
+# Optional: For enhanced functionality
+# tavily-python  # Alternative Tavily client (not required, using requests)
